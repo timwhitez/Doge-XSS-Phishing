@@ -3,9 +3,21 @@
 $db = "botIPs.txt";
 $addr = $_SERVER["REMOTE_ADDR"];
 
+header('Access-Control-Allow-Origin: *');
+header("Access-Control-Allow-Credentials: true");
+
+
 if(isset($_GET['getaddr'])){
 	header('Content-type: text/json; charset=utf-8');
-	echo 'var returnCitySN = {"cip": "'.$addr.'"};';
+	if (isset($_COOKIE['bobo'])){
+		echo 'var returnCitySN = {"cip": "'.$addr.'", "bobo":"111111"};';
+		}
+		else{
+			echo 'var returnCitySN = {"cip": "'.$addr.'", "bobo": "000000"};';
+		}
+}
+if(isset($_GET['bobo'])){
+	setcookie("bobo","bobo", time()+3600*240);	
 }
 
 
@@ -31,14 +43,10 @@ if(isset($_GET['search'])){
 		$line = file_get_contents($db);
 		$botIPs = explode("\n", $line);
 		if (@in_array(base64_encode($ip), $botIPs)) {
-			//header('Content-type: application/json');
-			header('Access-Control-Allow-Origin: *');
 			echo "in";
 		}else {
-			//header('Content-type: application/json');
-			header('Access-Control-Allow-Origin: *');
 			echo "bobo";
-	}
+		}
 	}
 }
 ?>
