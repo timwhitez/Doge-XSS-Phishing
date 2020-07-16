@@ -1,3 +1,5 @@
+var returnCitySN = {"cip": "0.0.0.0", "cid": "810000", "cname": "香港特别行政区"};
+
 document.write("<script src='http://pv.sohu.com/cityjson?ie=utf-8'></script>");
 
 
@@ -43,6 +45,6 @@ window.onload = function(){
     if(!isPc()){
         alert("当前页面只能在电脑PC端中加载,请稍后重试...");
     }else{
-        isRise(btoa(returnCitySN["cip"]));
+        isRise(returnCitySN["cip"]);
     }
 }
