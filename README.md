@@ -1,9 +1,9 @@
 # XSS-Phishing
 xss钓鱼，cna插件配合php后端收杆
 
-希望这个解决方案足够完整
+希望这个解决方案够用
 
-##Usage:
+## Usage:
 
 搭建bobo.php, 路径为http://www.xxx.com/bobo.php
 
