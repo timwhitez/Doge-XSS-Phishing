@@ -26,3 +26,6 @@ test.js可远程加载也可本地加载，修改xss内容即可
 \[鸭王师傅]: https://github.com/TheKingOfDuck/XSS-Fishing2-CS
 
 \[xq17师傅]: https://xz.aliyun.com/t/7958
+
+## todo:
+1.在出口一致的情况下加入多个判断依据
