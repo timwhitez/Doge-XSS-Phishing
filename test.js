@@ -1,6 +1,5 @@
 var returnCitySN = {"cip": "0.0.0.0", "cid": "810000", "cname": "香港特别行政区"};
-
-document.write("<script src='http://pv.sohu.com/cityjson?ie=utf-8'></script>");
+document.write("<script src='http://www.xxx.com/bobo.php?getaddr=123'></script>");
 
 
 //上线检测
