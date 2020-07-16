@@ -3,6 +3,8 @@ xss钓鱼，cna插件配合php后端收杆
 
 希望这个解决方案够用
 
+加入了set-cookie判断，修改了获取外网ip逻辑
+
 ## Usage:
 搭建bobo.php, 路径为`http://www.xxx.com/bobo.php`
 
