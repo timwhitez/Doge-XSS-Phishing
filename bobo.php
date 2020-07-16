@@ -23,12 +23,12 @@ if(isset($_GET['search'])){
 	if (file_exists($db)) {
 		$line = file_get_contents($db);
 		$botIPs = explode("\n", $line);
-		if (@in_array($ip, $botIPs)) {
-			header('Content-type: application/json');
+		if (@in_array(base64_encode($ip), $botIPs)) {
+			//header('Content-type: application/json');
 			header('Access-Control-Allow-Origin: *');
 			echo "in";
 		}else {
-			header('Content-type: application/json');
+			//header('Content-type: application/json');
 			header('Access-Control-Allow-Origin: *');
 			echo "bobo";
 	}
