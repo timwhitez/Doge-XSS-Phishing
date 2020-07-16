@@ -18,7 +18,7 @@ test.js可远程加载也可本地加载，修改xss内容即可
 
 等待上线即可
 
-##致谢：
+## 致谢：
 此项目借鉴如下:
 [鸭王师傅]: https://github.com/TheKingOfDuck/XSS-Fishing2-CS
 [xq17师傅]: https://xz.aliyun.com/t/7958
