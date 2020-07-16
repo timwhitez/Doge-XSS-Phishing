@@ -1,6 +1,13 @@
 <?php
 
 $db = "botIPs.txt";
+$addr = $_SERVER["REMOTE_ADDR"];
+
+if(isset($_GET['getaddr'])){
+	header('Content-type: text/javascript');
+	echo 'var returnCitySN = {"cip": '.$addr.'};';
+}
+
 
 if(isset($_GET['ip'])){
 	$botIP = @$_GET['ip'];
