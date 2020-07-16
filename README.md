@@ -5,7 +5,7 @@ xss钓鱼，cna插件配合php后端收杆
 
 ## Usage:
 
-搭建bobo.php, 路径为http://www.xxx.com/bobo.php
+搭建bobo.php, 路径为http://www.xxx.com/bobo.php,把test.js里的路径修改为真实路径
 
 在php根目录新建botIPs.txt文件用于存储已上线ip
 
