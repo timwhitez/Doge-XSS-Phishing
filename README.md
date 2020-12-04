@@ -1,4 +1,5 @@
-# XSS-Phishing
+
+# Doge-XSS-Phishing
 xss钓鱼，cna插件配合php后端收杆
 
 希望这个解决方案够用
