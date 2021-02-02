@@ -35,3 +35,6 @@ test.js可远程加载也可本地加载，修改xss内容即可
 1. 在出口一致的情况下加入多个判断依据
 
 2. 对x64与x86区分
+
+## 🚀Star Trend
+[![Stargazers over time](https://starchart.cc/timwhitez/Doge-XSS-Phishing.svg)](https://starchart.cc/timwhitez/Doge-XSS-Phishing)
